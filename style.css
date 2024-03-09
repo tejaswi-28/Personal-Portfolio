@@ -10,7 +10,7 @@
     height: 100vh;
 } */
 #back{
-    background-image: url('bg1.jpg');
+    background-image: url('bg4.avif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -24,8 +24,6 @@
     width: 100%;
     padding: 18px 10%;
     background: linear-gradient( rgb(0, 0, 0),#354f60);
-    /* background: linear-gradient( rgb(0, 0, 0),#9729ac); */
-    /* background-color: #000000; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,15 +48,12 @@
     margin-left: 35px;
     transition: .3s;
     opacity: 0;
+    border-bottom: 3px solid transparent;
     animation: slideTop .5s ease forwards;
 }
 .navbar a:hover{
     color: #0ef;
-    text-shadow: 0 0 5px cyan,
-    0 0 25px cyan,
-    0 0 50px cyan,
-    0 0 100px cyan,
-    0 0 200px cyan;
+    border-color: #0ef!important;
 }
 
 .home{
@@ -142,7 +137,7 @@
 .circle:nth-child(2){
     width: 26rem;
     /* max-width: 500px; */
-    background-image: url("tej.jpg");
+    background-image: url("/images/tej.jpg");
     background-size: 100%;
     box-shadow: 0 0 2px #fff,
     inset 0 0 2rem #000;
@@ -548,13 +543,15 @@
     margin: 0;
 }
 .row{
+    width: 100%;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
-    margin: 1rem;
+    margin: .5rem;
     padding: 20px;
 }
 .row img{
@@ -564,7 +561,8 @@
     transition: transform 0.5s;
 }
 .layer{
-    width: 60%;
+    /* margin-left: 30px; */
+    width: 30%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.1), #0ef);
     position: absolute;
@@ -695,8 +693,8 @@
     outline: none;
     width: 90%;
     padding: 18px;
-    background: #555557;
-    /* background: #757576; */
+    /* background: #555557; */
+    background: #252525;
     color: #000;
     font-size: 1rem;
     font-weight: 600;
