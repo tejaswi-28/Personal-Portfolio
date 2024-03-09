@@ -137,7 +137,7 @@
 .circle:nth-child(2){
     width: 26rem;
     /* max-width: 500px; */
-    background-image: url("tej.jpg");
+    background-image: url('tej.jpg');
     background-size: 100%;
     box-shadow: 0 0 2px #fff,
     inset 0 0 2rem #000;
